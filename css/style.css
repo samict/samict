@@ -59,7 +59,7 @@ ul{
 }
 
 .solid-bg_2{
-  background: url(file:///C:/Users/godlike/Downloads/startup-photos.jpg);
+  background-image: url('../img/pexels-photo-590499.jpeg');
   background-size: cover;
   float: left;
   height: 800px;
@@ -67,7 +67,7 @@ ul{
 
 .solid-bg
 {
-  background: url(file:///E:/experements/img/man-relax-couch-study.jpg);
+  background-image: url('../img/man-relax-couch-study.jpg');
   background-size: cover;
   float: left;
   height: 800px;
@@ -75,7 +75,7 @@ ul{
 
 .solid-bg_3
 {
-  background: url(file:///E:/ict-potfolio/img/pexels-photo-536021.jpeg);
+  background-image: url('../img/startup-photos.jpg');
   background-size: cover;
   float: left;
   height: 800px;
