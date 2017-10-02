@@ -1,0 +1,222 @@
+/*Глобальные Настройки*/
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+li{
+  list-style: none;
+}
+
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+/*Глобальные Настройки Конец*/
+/*Шапка*/
+.slide-conteiner
+{
+  background: pink;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  float: left;
+  background: white;
+  float: left;
+
+}
+
+.clear{
+  clear: both;
+}
+
+.slides{
+  position: relative;
+  height: 100%;
+}
+
+.post{
+  background: rgba(0, 0, 0, 0.43);
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 600px;
+  color: white;
+  height: 250px;
+  position: absolute;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 4px;
+  margin-top: 520px;
+}
+
+.solid-bg_2{
+  background: url(file:///C:/Users/godlike/Downloads/startup-photos.jpg);
+  background-size: cover;
+  float: left;
+  height: 800px;
+}
+
+.solid-bg
+{
+  background: url(file:///C:/Users/godlike/Downloads/pexels-photo-256455.jpeg);
+  background-size: cover;
+  float: left;
+  height: 800px;
+}
+
+.solid-bg_3
+{
+  background: url(file:///E:/ict-potfolio/img/pexels-photo-536021.jpeg);
+  background-size: cover;
+  float: left;
+  height: 800px;
+  display:
+}
+
+
+.next{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 380px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.42);
+  float: right;
+  font-size:35px;
+  line-height: 50px;
+}
+
+.prev
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 380px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.42);
+  float: left;
+  font-size:35px;
+  line-height: 50px;
+}
+
+.menu
+{
+  position: absolute;
+  color: white;
+  z-index: 9999;
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.44);
+}
+
+
+
+.logo
+{
+  font-size: 27px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.punkts_menu{
+  float:right;
+  padding-right: 15px;
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+
+.menu_s{
+  padding-left: 15px;
+}
+/*Шапка Конец*/
+
+/*Article*/
+
+article
+{
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.tabs{
+  font-size: 25px;
+  margin-left: 25px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.news{
+  float: left;
+  border-bottom:4px solid red;
+  cursor: pointer;
+  margin-top: 30px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.warning{
+  margin-left:15px;
+  margin-top: 30px;
+  float: left;
+  cursor: pointer;
+}
+
+
+
+.griden li{
+  float: left;
+  margin-top: 20px;
+  width: 350px;
+  background-color: #f1eded;
+  margin-left: 35px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.padding_news{
+  padding:10px;
+}
+
+.button_more
+{
+  background: #23232c;
+  color: white;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius:4px;
+}
+
+.news_grid{
+  display: flex;
+  justify-content: center;
+}
+/*artice END*/
+
+
+/* WRAP annon */
+
+.some_text
+{
+  font-size: 25px;
+  color: white;
+}
+
+/*end*/

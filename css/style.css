@@ -1,0 +1,391 @@
+/*Глобальные Настройки*/
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Pattaya');
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+li{
+  list-style:  none;
+}
+
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+/*Глобальные Настройки Конец*/
+/*Шапка*/
+.slide-conteiner
+{
+  background: pink;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  float: left;
+  background: white;
+  float: left;
+
+}
+
+.clear{
+  clear: both;
+}
+
+.slides{
+  position: relative;
+  height: 100%;
+}
+
+.post{
+  background: rgba(0, 0, 0, 0.43);
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 600px;
+  color: white;
+  height: 250px;
+  position: absolute;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 4px;
+  margin-top: 520px;
+}
+
+.solid-bg_2{
+  background: url(file:///C:/Users/godlike/Downloads/startup-photos.jpg);
+  background-size: cover;
+  float: left;
+  height: 800px;
+}
+
+.solid-bg
+{
+  background: url(file:///E:/experements/img/man-relax-couch-study.jpg);
+  background-size: cover;
+  float: left;
+  height: 800px;
+}
+
+.solid-bg_3
+{
+  background: url(file:///E:/ict-potfolio/img/pexels-photo-536021.jpeg);
+  background-size: cover;
+  float: left;
+  height: 800px;
+  display:
+}
+
+
+.next{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 380px;
+  float: right;
+  font-size:35px;
+  cursor: pointer;
+  color: mintcream;
+  line-height: 50px;
+}
+
+.prev
+{
+  width: 50px;
+  color: mintcream;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 380px;
+  cursor: pointer;
+  float: left;
+  font-size:35px;
+  line-height: 50px;
+}
+
+.menu
+{
+  position: absolute;
+  color: white;
+  z-index: 9999;
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.32);
+}
+
+
+
+.logo
+{
+  font-size: 27px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 5px;
+  font-family: 'Pattaya', sans-serif;
+  color: cornsilk;
+}
+
+.content_next_prev
+{
+  position: absolute;
+  z-index: 9999;
+  width:100%;
+}
+
+.punkts_menu{
+  float:right;
+  padding-right: 15px;
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+.menu_phone
+{
+  float: right;
+  line-height: 50px;
+  font-size: 25px;
+  display: ;
+}
+
+
+.menu_s{
+  padding-left: 15px;
+}
+/*Шапка Конец*/
+
+/*Article*/
+
+article
+{
+  font-family: 'Roboto Condensed', sans-serif;
+  height:
+  margin-top: 50px;
+}
+
+.ads
+{
+  display: none;
+}
+
+
+.round_page
+{
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  line-height: 40px;
+  background-color: rgba(126, 214, 141, 0.68);
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.selector_page{
+  display: flex;
+  justify-content: center;
+}
+
+.tabs{
+  font-size: 25px;
+  margin-left: 25px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.news{
+  float: left;
+  border-bottom:4px solid #ec0b43;
+  cursor: pointer;
+  margin-top: 30px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.warning{
+  margin-left:15px;
+  margin-top: 30px;
+  float: left;
+  cursor: pointer;
+}
+
+
+
+.griden li{
+  float: left;
+  margin-top: 20px;
+  width: 350px;
+  background-color: #f1eded;
+  margin-left: 35px;
+  -webkit-box-shadow: 10px 10px 6px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 6px 2px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 6px 2px rgba(0,0,0,0.75);
+}
+
+.padding_news{
+  padding:10px;
+}
+
+.button_more
+{
+  background: #23232c;
+  color: white;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius:4px;
+}
+
+.news_grid{
+  display: flex;
+  justify-content: center;
+}
+/*artice END*/
+
+/**/
+
+.some_text
+{
+  font-size: 23px;
+  margin-left: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-bottom: 4px solid green;
+  width: 220px;
+}
+
+
+.college
+{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  height: auto;
+  width: 90%;
+margin: auto;
+}
+
+.block_college_1{
+  width: 350px;
+  padding-left: 20px;
+  margin-top: 10px;
+  float: left;
+  height:130px;
+  padding: 10px;
+}
+
+.text_college{
+  padding-top: 20px;
+}
+
+.img_collage
+{
+  width: 100px;
+  float: left;
+  height: 100px;
+  text-align: center;
+
+}
+
+/*end*/
+
+/*favorite_info*/
+
+.favorite_info
+{
+  border-top: 2px solid silver;
+}
+
+
+.tabs_info{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    width: 190px;
+    margin-left: 20px;
+    border-top: 4px solid #ec0b43;
+}
+
+.links
+{
+  padding: 10px;
+  background: aliceblue;
+  font-size: 18px;
+  height: 200px;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.links_left
+{
+  float: left;
+}
+
+.links_right{
+  float: left;
+  margin-left: 50px;
+}
+
+.links_right_2{
+  float: left;
+  margin-left: 100px;
+}
+.map
+{
+  width: 100%;
+  height: 600px;
+}
+
+/*menu phone*/
+.bgm
+{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(42, 45, 45, 0.5);
+  z-index: 99999;
+  display: none;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.head_bg_m
+{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 300px;
+}
+
+.nav_bg_m
+{
+  text-align: center;
+  font-size: 35px;
+  border-top: 2px solid rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+
+}
+
+.nav_bg_m:hover{
+  background: rgba(8, 249, 171, 0.08);
+  transition: .5s;
+}
+
+
+.closed_bg_m
+{
+  font-size: 80px;
+  float: right;
+  cursor: pointer;
+}

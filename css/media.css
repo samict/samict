@@ -1,0 +1,51 @@
+@media screen and (max-width: 992px){
+  .menu_s{
+    display: none;
+  }
+
+  .punkts_menu
+  {
+    display: none;
+  }
+
+  .menu_phone
+  {
+    display: block;
+  }
+
+  .griden li
+  {
+  width: 90%;
+  padding: 0;
+  margin-left: 50px;
+  }
+
+  .links{
+    height: 600px;
+  }
+
+  .links_right
+  {
+    margin-left: 30px'
+  }
+
+  .head_bg_m
+  {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 600px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 480px){
+  .griden li
+  {
+    display: none;
+  }
+
+
+
+}
