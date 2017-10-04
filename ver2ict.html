@@ -3,12 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Jquery</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
   </head>
   <body>
 <div>
+  <div class="menu">
+    <div class="menu_phone">
+      <i class="fa fa-align-justify" aria-hidden="true"></i>
+    </div>
+    <div class="punkts_menu">Главная <span class="menu_s">О Колледже</span> <span class="menu_s">Кафедры <i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="menu_s">Студентам <i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="menu_s">Контакты</span></div>
+    <div class="gradient_logo">
+      <div class="logo"><h2>Самаркандский Колледж ИКТ<h2></div><div class="header_2_logo"><h2>Самаркандский Колледж Электро<br> <span style="padding:40px;">Техники И промышлиности</span></h2></div>
+    </div>
+  </div>
   <div class="bgm">
     <div class="closed_bg_m">
       <i class="fa fa-times" aria-hidden="true"></i>
@@ -23,12 +32,7 @@
   </div>
   <div class="slide-conteiner" >
     <div class="content_next_prev"><div><div class="prev"><img src="img/prev.png" alt=""></div><div class="next"><img src="img/next.png" alt=""></div></div></div>
-    <div class="menu">
-      <div class="menu_phone">
-        <i class="fa fa-align-justify" aria-hidden="true"></i>
-      </div>
-      <div class="logo">Самаркандский Колледж ИКТ</div><div class="punkts_menu">Главная <span class="menu_s">О Колледже</span> <span class="menu_s">Кафедры <i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="menu_s">Студентам <i class="fa fa-arrow-down" aria-hidden="true"></i></span><span class="menu_s">Контакты</span></div>
-    </div>
+
       <ul class="slides">
         <li   class="solid-bg"><div class="post">
           <h1>Lorem</h1>
@@ -130,7 +134,7 @@
 
       </div>
       <div class="map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac2104bb2b6b8e978244ef7da5701377d46737edcb53e86b4546ba5c03aecd7ae&amp;width=100%&amp;height=500px&amp;lang=ru_RU&amp;scroll=true myMap.behaviors.disable('scrollZoom');"></script></div>
-      <a href="ver2ict.html">Версия 2 Шапки</a>
+
     <script src="jquery-3.2.1.min.js"></script>
     <script src="js.js"></script>
     <script>
@@ -154,10 +158,10 @@
     <script>
       $(document).ready(function () {
         $('.menu_phone').click(function () {
-          $('.bgm').css('display', 'block')
+          $('.bgm').slideDown();
         })
         function cliced () {
-          $('.bgm').css('display', 'none');
+          $('.bgm').slideUp();
         };
         $('.closed_bg_m').click(cliced);
       })
